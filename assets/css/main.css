@@ -1,0 +1,32 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+.container {
+    width: calc(100% - 40px);
+    margin: auto;
+    background-color: #8ae0e0c8;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.user {
+    background-color: lavender;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap:10px;
+}
+.dd {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 40px;
+}
